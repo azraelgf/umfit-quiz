@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Как часто вы едите сладкую еду или напитки или фастфуд?</title>
+	<title>Уровень жира</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -36,7 +36,6 @@
 		<main class="page">
 			<section class="quiz section-padding">
 				<div class="quiz__container-little">
-
 					<div class="quiz__progress progress">
 						<a href="" class="progress__back">
 							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,29 +47,27 @@
 						</div>
 						<div class="progress__num">2/18</div>
 					</div>
-
-					<div class="quiz-content _little">
+					<div class="quiz-content _fat-goal">
+						<h2 class="quiz-content__title-mobile _hidden title">Выберете свой уровень жира
+							в&nbsp;организме</h2>
+						<div class="quiz-content__img-wrapper">
+							<!--quiz-content__img при наличии 3d-model этот блок не используем -> (quiz-content__img) -->
+							<div class="quiz-content__img -ibg">
+								<img src="img/fat-lvl/men/lvl-1.png" alt="Image">
+							</div>
+							<!--end quiz-content__img -->
+						</div>
 						<div class="quiz-content__info">
-							<h2 class="quiz-content__title title">Как часто вы едите сладкую еду или напитки или
-								фастфуд?</h2>
-							<div class="quiz-content__options options _shape">
-								<div class="options__item">
-									<input id="f_1" class="options__input" checked type="radio" value="1" name="food">
-									<label for="f_1" class="options__label">
-										<span class="options__text text">Не часто. Я не люблю сладкое </span>
-									</label>
-								</div>
-								<div class="options__item">
-									<input id="f_2" class="options__input" type="radio" value="2" name="food">
-									<label for="f_2" class="options__label">
-										<span class="options__text text">3-5 раз в неделю</span>
-									</label>
-								</div>
-								<div class="options__item">
-									<input id="f_3" class="options__input" type="radio" value="3" name="food">
-									<label for="f_3" class="options__label">
-										<span class="options__text text">Практически каждый день</span>
-									</label>
+							<h2 class="quiz-content__title _hidden title">Выберете свой уровень жира в&nbsp;организме</h2>
+							<div class="quiz-content__range">
+								<div class="quiz-content__input-range input-range">
+									<div class="input-range__input">
+										<input type="range" id="range">
+									</div>
+									<div class="input-range__value">
+										<span>5-9%</span>
+										<span>>40%</span>
+									</div>
 								</div>
 							</div>
 							<div class="quiz-content__action">

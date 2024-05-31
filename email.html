@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Как часто вы едите сладкую еду или напитки или фастфуд?</title>
+	<title>Напишите ваш email</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -36,50 +36,27 @@
 		<main class="page">
 			<section class="quiz section-padding">
 				<div class="quiz__container-little">
-
-					<div class="quiz__progress progress">
-						<a href="" class="progress__back">
-							<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M6 1L1 6L6 11" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-							</svg>
-						</a>
-						<div class="progress__line">
-							<div class="progress__value" style="width: 10%;"></div>
-						</div>
-						<div class="progress__num">2/18</div>
-					</div>
-
 					<div class="quiz-content _little">
 						<div class="quiz-content__info">
-							<h2 class="quiz-content__title title">Как часто вы едите сладкую еду или напитки или
-								фастфуд?</h2>
-							<div class="quiz-content__options options _shape">
-								<div class="options__item">
-									<input id="f_1" class="options__input" checked type="radio" value="1" name="food">
-									<label for="f_1" class="options__label">
-										<span class="options__text text">Не часто. Я не люблю сладкое </span>
-									</label>
+							<h2 class="quiz-content__title title text-center">Напишите ваш email</h2>
+							<div class="form">
+								<div class="form__row">
+									<input class="form__input input" id="d-name" autocomplete="off" type="text" placeholder="имя@example.com">
 								</div>
-								<div class="options__item">
-									<input id="f_2" class="options__input" type="radio" value="2" name="food">
-									<label for="f_2" class="options__label">
-										<span class="options__text text">3-5 раз в неделю</span>
-									</label>
+								<div class="form__row">
+									<div class="form__text">
+										Мы уважаем вашу конфиденциальность и очень серьезно относимся к ее защите — никакого
+										спама.
+									</div>
 								</div>
-								<div class="options__item">
-									<input id="f_3" class="options__input" type="radio" value="3" name="food">
-									<label for="f_3" class="options__label">
-										<span class="options__text text">Практически каждый день</span>
-									</label>
+								<div class="form__row _center">
+									<!-- button on click add to class button -> button_active (activation loader)-->
+									<button class="button" type="button">
+										<span class="button__loader"></span>
+										<span>Продолжить</span>
+									</button>
+									<!--end button -->
 								</div>
-							</div>
-							<div class="quiz-content__action">
-								<!-- button on click add to class button -> button_active (activation loader)-->
-								<button class="button" type="button">
-									<span class="button__loader"></span>
-									<span>Продолжить</span>
-								</button>
-								<!--end button -->
 							</div>
 						</div>
 					</div>
