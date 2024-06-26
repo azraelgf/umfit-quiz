@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Профиль</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240626104016">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header-mini">
+			<div class="header-mini__container">
+				<a href="" class="header-mini__user">
+					<img src="img/miniapp/avatars/01.png" alt="Image">
+					Hell
+				</a>
+				<a href="" class="header-mini__notifications notifications">
+					<img src="img/miniapp/icons/bell.svg" alt="Image">
+					<span>5</span>
+				</a>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="hero-app">
+				<div class="hero-app__container">
+					<div class="hero-app__title title-app">Калькулятор</div>
+					<div class="calc-app">
+						<div class="calc-app__item">
+							<label class="param-calc__label input-app-label">Пол</label>
+							<div class="options">
+								<div class="options__item">
+									<input id="o_1" class="options__input" checked type="radio" value="1" name="male">
+									<label for="o_1" class="options__label">
+										<span class="options__text">Мужской</span>
+									</label>
+								</div>
+								<div class="options__item">
+									<input id="o_2" class="options__input" type="radio" value="2" name="male">
+									<label for="o_2" class="options__label">
+										<span class="options__text">Женский</span>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="calc-app__item">
+							<div class="param-calc">
+								<div class="param-calc__item">
+									<label for="old" class="param-calc__label input-app-label">Возраст</label>
+									<input class="param-calc__input input" id="old" autocomplete="off" type="text" placeholder="35">
+								</div>
+								<div class="param-calc__item">
+									<label for="height" class="param-calc__label input-app-label">Рост, см</label>
+									<input class="param-calc__input input" id="height" autocomplete="off" type="text" placeholder="162">
+								</div>
+								<div class="param-calc__item">
+									<label for="weight" class="param-calc__label input-app-label">Вес, кг</label>
+									<input class="param-calc__input input" id="weight" autocomplete="off" type="text" placeholder="50">
+								</div>
+							</div>
+						</div>
+
+						<div class="calc-app__item">
+							<div class="calc-app__options">
+								<div class="input-app-label">Активность</div>
+								<div class="options">
+									<div class="options__item">
+										<input id="a_1" class="options__input" type="radio" value="1" name="active">
+										<label for="a_1" class="options__label">
+											<span class="options__text">Минимальная</span>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="a_2" class="options__input" checked type="radio" value="2" name="active">
+										<label for="a_2" class="options__label">
+											<span class="options__text">Умеренная</span>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="a_3" class="options__input" type="radio" value="2" name="active">
+										<label for="a_3" class="options__label">
+											<span class="options__text">Высокая</span>
+										</label>
+									</div>
+								</div>
+								<div class="input-app-label">Уровень</div>
+								<div class="options">
+									<div class="options__item">
+										<input id="l_1" class="options__input" type="radio" value="1" name="lvl">
+										<label for="l_1" class="options__label">
+											<span class="options__text">Слабый</span>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="l_2" class="options__input" checked type="radio" value="2" name="lvl">
+										<label for="l_2" class="options__label">
+											<span class="options__text">Нормальный</span>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="l_3" class="options__input" type="radio" value="3" name="lvl">
+										<label for="l_3" class="options__label">
+											<span class="options__text">Сильный</span>
+										</label>
+									</div>
+								</div>
+								<div class="input-app-label">Цель</div>
+								<div class="options">
+									<div class="options__item">
+										<input id="g_1" class="options__input" type="radio" value="1" name="goal">
+										<label for="g_1" class="options__label">
+											<span class="options__text">Сброс веса</span>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="g_2" class="options__input" checked type="radio" value="2" name="goal">
+										<label for="g_2" class="options__label">
+											<span class="options__text">Сохранение веса</span>
+										</label>
+									</div>
+									<div class="options__item">
+										<input id="g_3" class="options__input" type="radio" value="3" name="goal">
+										<label for="g_3" class="options__label">
+											<span class="options__text">Набор веса</span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="calc-app__result">
+							<div class="calc-app__title title-app">Рекомендуемое дневное потребление калорий:</div>
+							<strong class="text-accent">1412кКал</strong>
+							<div class="calc-app__numbers">
+								<div class="input-app-label">расчет БЖУ:</div>
+								<div class="calc-app__table">
+									<div class="calc-app__table-row">
+										Белки
+										<strong>100г</strong>
+									</div>
+									<div class="calc-app__table-row">
+										Жиры
+										<strong>50г</strong>
+									</div>
+									<div class="calc-app__table-row">
+										Углеводы
+										<strong>140г</strong>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer-mini">
+			<div class="footer-mini__container">
+				<div class="panel">
+					<a href="" class="panel__btn _active">
+						<img src="img/miniapp/icons/footer/profile.svg" alt="Image">
+						Profile
+					</a>
+					<a href="" class="panel__btn">
+						<img src="img/miniapp/icons/footer/meal.svg" alt="Image">
+						Meal
+					</a>
+					<a href="" class="panel__btn">
+						<img src="img/miniapp/icons/footer/sport.svg" alt="Image">
+						Sport
+					</a>
+					<a href="" class="panel__btn">
+						<img src="img/miniapp/icons/footer/shop.svg" alt="Image">
+						Shop
+					</a>
+					<a href="" class="panel__btn">
+						<img src="img/miniapp/icons/footer/blockchain.svg" alt="Image">
+						Blockchain
+					</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240626104016"></script>
+</body>
+
+</html>
