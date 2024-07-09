@@ -47,7 +47,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/PhpstormProjects/work/2024/05/razdorov",
+    "last_opened_file_path": "C:/Users/User/PhpstormProjects/work/2024/06/fit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +87,8 @@
       <workItem from="1720209081982" duration="223000" />
       <workItem from="1720209315605" duration="206000" />
       <workItem from="1720259773651" duration="25000" />
+      <workItem from="1720530624508" duration="41000" />
+      <workItem from="1720536463597" duration="48000" />
     </task>
     <servers />
   </component>
