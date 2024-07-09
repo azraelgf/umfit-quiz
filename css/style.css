@@ -1265,6 +1265,9 @@ input:checked + .switch__slider:before {
   padding-top: 1.25rem;
   border-top: 2px solid var(--accent)
 }
+.calc-app__item .options {
+  flex-direction: column
+}
 .hero .options {
   gap: 2.5rem;
   flex-direction: row
@@ -2535,7 +2538,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .bonus__item {
   background-color: var(--bg-secondary);
-  flex: 0 0 4.8125rem;
+  flex: 0 0 23%;
   border-radius: .375rem;
   padding: .25rem;
   border: .0625rem solid transparent;
@@ -2670,7 +2673,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .options {
   flex-direction: row;
-  justify-content: space-between;
   gap: .625rem;
   font-size: .75rem
 }
@@ -2724,7 +2726,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: .625rem;
   display: flex;
   flex-direction: column;
-  gap: .25rem
+  gap: .25rem;
+  flex: 0 0 47%
 }
 .nft-item.nft-item_single {
   flex: 1 1 auto;
@@ -2751,6 +2754,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: relative
 }
 .nft-item__img img {
+  width: 100%;
   border-radius: .375rem;
   -o-object-fit: cover;
   object-fit: cover
@@ -2823,13 +2827,16 @@ input[type=date]::-webkit-calendar-picker-indicator {
   flex-wrap: wrap;
   gap: 1rem
 }
+.item-shop {
+  flex: 0 1 47%
+}
 .item-shop.item-shop_disable {
   pointer-events: none
 }
 .item-shop__inner {
   border-radius: .25rem;
   background-color: var(--bg-secondary);
-  padding: .75rem .625rem;
+  padding: .75rem .5rem;
   display: flex;
   gap: .5rem;
   border: 1px solid var(--accent);
